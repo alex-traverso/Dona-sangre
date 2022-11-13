@@ -18,7 +18,7 @@
 <body>
     <!-- INICIO NAVBAR -->
 	<div class="navbar">
-		<a href="#">
+		<a href="/index.html">
 			<img class="logo" src="images/logo-donar-sangre.png" alt="Dona sangre">
 		</a>
 		<div class="toggler">
@@ -26,13 +26,13 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#">Donar</a></li>
-				<li><a href="#">Testimonios</a></li>
-				<li><a href="#">La sangre</a></li>
-				<li><a href="#">Nosotros</a></li>
-				<li><a href="#">Ayudanos</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">FAQ</a></li>
+				<li><a href="/donar-sangre.html">Donar</a></li>
+				<li><a href="/testimonios.html">Testimonios</a></li>
+				<li><a href="/lasangre.html">La sangre</a></li>
+				<li><a href="/nosotros.html">Nosotros</a></li>
+				<li><a href="/ayudanos.html">Ayudanos</a></li>
+				<li><a href="/contacto.html">Contacto</a></li>
+				<li><a href="/faq.html">FAQ</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -40,11 +40,15 @@
 
 	<!-- INICIO BANNER -->
 	<div class="donate-container">
+		<div class="donate-img-container">
+			<img class="donate-img" src="images/donar-sangre.png" alt="">
+		</div>
         <div class="donate-container-info container">
-            <img class="donate-img" src="images/donar-sangre.png" alt="">
-            <h2 class="donate-title text-red text-center">Donar Sangre</h2>
+            <div class="donate-text-container">
+				<h1 class="donate-title text-red text-center">Donar Sangre</h1>
             <p class="donate-caption">Donar sangre no es un derecho, es un acto solidario. Como tal, consideramos que debe ser responsable, voluntario y desinteresado, teniendo como objetivo el brindar ayuda a quien requiere la sangre para vivir. La sangre no se fabrica, la única forma de obtenerla es a través de la donación.
             Este es el regalo más valioso que le podemos hacer a alguien. La decisión de donar sangre puede salvar una vida, o incluso varias, si se separa la donación por componentes -glóbulos rojos, plaquetas y plasma-.</p>
+			</div>
         </div>
     </div>
 
@@ -76,8 +80,8 @@
 				<p class="req-caption">Desayunar y/o almorzar</p>
 			</div>
 			<div class="req-info">
-				<img class="req-img" src="images/desayunar-almorzar.png" alt="Desayunar y/o almorzar">
-				<p class="req-caption">Desayunar y/o almorzar</p>
+				<img class="req-img" src="images/salud.png" alt="Tener buen estado de salud">
+				<p class="req-caption">Tener buen estado de salud</p>
 			</div>
 		</div>
 	</section>
@@ -85,25 +89,31 @@
 
 	<!-- INICIO WHERE -->
 	<section class="where-container-db container">
-		<div class="where-content">
-			<h2 class="where-title">Dónde donar</h2>
-			<div class="where-info">
-                <p class="where-text">Para evitar la aglomeración de personas, se brindan turnos programados de donación voluntaria de sangre. La Red de Medicina Transfusional del Ministerio de Salud del GCABA informa las próximas campañas de donación voluntaria 
+		<div class="where-content-db">
+			<div class="where-text-container-db">
+				<div class="where-info-db">
+				<h2 class="where-title-db">Dónde donar</h2>
+					<p class="where-text-db">Para evitar la aglomeración de personas, se brindan turnos programados de donación voluntaria de sangre. La Red de Medicina Transfusional del Ministerio de Salud del GCABA informa las próximas campañas de donación voluntaria 
     de sangre. También puede sacar turno en Servicios 
     de Hemoterapia de hospitales.
                 </p>
-                <input class="where-search" type="search" placeholder="¿Qué estás buscando?">
-                <img class="where-img" src="images/mapa.png" alt="¿Dónde donar?">
+				</div>
+			<input class="where-search" type="search" placeholder="¿Qué estás buscando?">
+			<iframe class="where-map-db" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.477401964526!2d-58.383998184236404!3d-34.61737416572886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1667592326169!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
+			
 		</div>
 	</section>
 	<!-- FIN WHERE -->
 
 
 	<!-- INICIO FOOTER -->
-	<footer>
-		<div class="footer-items-container">
+	<footer class="container">
+		<div class="footer-logo-container">
 			<img class="footer-logo" src="images/logo-footer.png" alt="Logo">
+		</div>
+
+		<div class="footer-items-container">
 			<div class="footer-donate">
 				<a href="#" class="text-bold">Donar</a>
 				<a href="#">Requisitos</a>
@@ -120,31 +130,37 @@
 				<a href="#">Grupos sanguíneos</a>
 			</div>
 			<div class="footer-us">
-				<a href="#" class="text-bold">A.A.H.I.T.C</a>
+				<a href="#" class="text-bold">Nosostros</a>
+				<a href="#">A.A.H.I.T.C</a>
 				<a href="#">Campañas</a>
 			</div>
 			<div class="footer-faq">
-				<a href="#" class="text-bold">Dudas y mitos</a>
+				<a href="#" class="text-bold">FAQ</a>
+				<a href="#">Dudas y mitos</a>
 			</div>
 			<div class="footer-contact">
 				<a href="#" class="text-bold">Contacto</a>
 			</div>
-			<img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
 		</div>
 
-		<div class="social-media">
-			<img src="images/instagram.png" alt="Instagram">
-			<img src="images/twitter.png" alt="Twitter">
-			<img src="images/youtube.png" alt="Youtube">
-			<img src="images/facebook.png" alt="Facebook">
-			
-		</div>
-		<div class="legals-container">
-			<p class="legals text-white text-center">2022 Todos los derechos reservados</p>
-			<p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
+		<div class="social-media-legals-container">
+			<div class="qr-code-container">
+				<img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
+			</div>
+			<div class="social-media">
+				<img src="images/instagram.png" alt="Instagram">
+				<img src="images/twitter.png" alt="Twitter">
+				<img src="images/youtube.png" alt="Youtube">
+				<img src="images/facebook.png" alt="Facebook">
+			</div>
+			<div class="legals-container">
+				<p class="legals text-white text-center">2022 Todos los derechos reservados</p>
+				<p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
+			</div>
 		</div>
 	</footer>
 	<!-- FIN FOOTER -->
+
 
 	<script src="https://code.jquery.com/jquery-3.6.1.js"
 		integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
