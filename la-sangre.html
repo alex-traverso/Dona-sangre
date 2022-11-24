@@ -1,173 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<head>
+  <head>
     <!-- encoding de caracteres -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Meta para responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/05175f9f05.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Título único en cada pagina HTML -->
-    <meta name="description" content="Hay cuatro grupos de sangre: A, B, AB y O. Asimismo, la sangre es Rh positivo o Rh negativo. Así, si su tipo de sangre es A, es A positivo o A negativo. ">
-    <title>La sangre-Donando Sangre</title>
-</head>
+    <meta
+      name="description"
+      content="Hay cuatro grupos de sangre: A, B, AB y O. Asimismo, la sangre es Rh positivo o Rh negativo. Así, si su tipo de sangre es A, es A positivo o A negativo. "
+    />
+    <title>La sangre - Donando Sangre</title>
+  </head>
 
-<body>
-
+  <body>
     <div class="navbar navbar-help">
-        <a href="/index.html">
-            <img class="logo" src="images/logo-navbar-blanco.png" alt="Dona sangre">
-        </a>
-        <div class="toggler">
-            <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-        </div>
-        <nav>
-            <ul>
-                <li><a class="text-white" href="/donar-sangre.html">Donar</a></li>
-                <li><a class="text-white" href="/testimonios.html">Testimonios</a></li>
-                <li><a class="text-white" href="/la-sangre.html">La sangre</a></li>
-                <li><a class="text-white" href="/nosotros.html">Nosotros</a></li>
-                <li><a class="text-white" href="/ayudanos.html">Ayudanos</a></li>
-                <li><a class="text-white" href="/contacto.html">Contacto</a></li>
-                <li><a class="text-white" href="/faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+      <a href="/index.html">
+        <img
+          class="logo"
+          src="images/logo-navbar-blanco.png"
+          alt="Dona sangre - Donando Sangre"
+        />
+      </a>
+      <div class="toggler">
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a class="text-white" href="/donar-sangre.html">Donar</a></li>
+          <li>
+            <a class="text-white" href="/testimonios.html">Testimonios</a>
+          </li>
+          <li><a class="text-white" href="/la-sangre.html">La sangre</a></li>
+          <li><a class="text-white" href="/nosotros.html">Nosotros</a></li>
+          <li><a class="text-white" href="/ayudanos.html">Ayudanos</a></li>
+          <li><a class="text-white" href="/contacto.html">Contacto</a></li>
+          <li><a class="text-white" href="/faq.html">FAQ</a></li>
+        </ul>
+      </nav>
     </div>
 
-    
     <!-- INICIO HEADER -->
     <div class="bloodtypes-video-mobile">
-        <iframe class="bloodtypes-video" src="https://www.youtube.com/embed/U0qiSwkN-L4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe
+        class="bloodtypes-video"
+        src="https://www.youtube.com/embed/U0qiSwkN-L4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
     <section class="bloodtypes-container container">
-            <h1 class="bloodtypes-title-desktop">La sangre</h1>
-        <div class="bloodtypes-content">
-            <div class="bloodtypes-video-desktop">
-                <iframe width="1000px" height="500px" src="https://www.youtube.com/embed/U0qiSwkN-L4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-    <h1 class="bloodtypes-title-mobile">La sangre</h1>
-            <div class="bloodtypes-info">
-                <h2 class="bloodtypes-subtitle">Tipos de sangre</h2>
-                <p class="bloodtypes-text">Hay cuatro grupos de sangre: A, B, AB y O. Asimismo, la sangre es Rh positivo o Rh negativo. Así, si su tipo de sangre es A, es A positivo o A negativo. 
-                    <br>
-                    <br>
-                Su tipo de sangre es importante si necesita una transfusión de sangre. Y su factor de sangre puede ser importante si usted queda embarazada, ya que la incompatibilidad entre su tipo de sangre y el de su bebé puede crear problemas.
-                </p>
-            </div>
+      <h1 class="bloodtypes-title-desktop">La sangre</h1>
+      <div class="bloodtypes-content">
+        <div class="bloodtypes-video-desktop">
+          <iframe
+            width="1000px"
+            height="500px"
+            src="https://www.youtube.com/embed/U0qiSwkN-L4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
+        <h1 class="bloodtypes-title-mobile">La sangre</h1>
+        <div class="bloodtypes-info">
+          <h2 class="bloodtypes-subtitle">Tipos de sangre</h2>
+          <p class="bloodtypes-text">
+            Hay cuatro grupos de sangre: A, B, AB y O. Asimismo, la sangre es Rh
+            positivo o Rh negativo. Así, si su tipo de sangre es A, es A
+            positivo o A negativo.
+            <br />
+            <br />
+            Su tipo de sangre es importante si necesita una transfusión de
+            sangre. Y su factor de sangre puede ser importante si usted queda
+            embarazada, ya que la incompatibilidad entre su tipo de sangre y el
+            de su bebé puede crear problemas.
+          </p>
+        </div>
+      </div>
     </section>
     <!-- FIN HEADER -->
 
     <!-- INICIO QUESTIONS -->
     <section class="questions-container container">
-        <div class="questions-desktop-container">
+      <div class="questions-desktop-container">
         <div class="question1-container">
-                <h2 class="question1-title">¿Sabés tu factor RH?</h2>
-                <div class="question-line"></div>
-                    <p class="question1-text">Cada uno de nosotros nace con un tipo de sangre que pertenece a un Grupo (A, B, AB, 0) y a un factor Rh (Positivo o Negativo). Por esta condición genética, nuestro organismo debe recibir sangre compatible.</p>
+          <h2 class="question1-title">¿Sabés tu factor RH?</h2>
+          <div class="question-line"></div>
+          <p class="question1-text">
+            Cada uno de nosotros nace con un tipo de sangre que pertenece a un
+            Grupo (A, B, AB, 0) y a un factor Rh (Positivo o Negativo). Por esta
+            condición genética, nuestro organismo debe recibir sangre
+            compatible.
+          </p>
         </div>
         <div class="question2-container">
-                <h2 class="question2-title">¿Sos RH negativo?</h2>
-                <div class="question-line"></div>
-                    <p class="question2-text">Aproximadamente el 10% de la población es RH Negativo y, por eso, cuando un paciente necesita este tipo de sangre, el Centro puede tener dificultad para obtenerla.</p>
+          <h2 class="question2-title">¿Sos RH negativo?</h2>
+          <div class="question-line"></div>
+          <p class="question2-text">
+            Aproximadamente el 10% de la población es RH Negativo y, por eso,
+            cuando un paciente necesita este tipo de sangre, el Centro puede
+            tener dificultad para obtenerla.
+          </p>
         </div>
-        </div>
-    <img class="bloodcells-img-desktop" src="images/bloodcells.png" alt="bloodcells">
+      </div>
+      <img
+        class="bloodcells-img-desktop"
+        src="images/bloodcells.png"
+        alt="bloodcells - Donando Sangre"
+      />
     </section>
-    <img class="bloodcells-img-mobile" src="images/bloodcells.png" alt="bloodcells">
+    <img
+      class="bloodcells-img-mobile"
+      src="images/bloodcells.png"
+      alt="bloodcells"
+    />
     <!-- FIN QUESTIONS -->
 
     <!-- INICIO COMPATIBILITY -->
     <section class="compatibility-container container">
-        <h2 class="compatibility-title">Compatibilidad</h2>
-            <p class="compatibility-text">Te contamos qué grupos y factores son compatibles:</p>
-            <img class="compatibility-chart-img" src="images/compatibilitychart.svg" alt="chart">
+      <h2 class="compatibility-title">Compatibilidad</h2>
+      <p class="compatibility-text">
+        Te contamos qué grupos y factores son compatibles:
+      </p>
+      <img
+        class="compatibility-chart-img"
+        src="images/compatibilitychart.svg"
+        alt="chart - Donando Sangre"
+      />
 
-    <p class="chart-text">Descargá los <a class="chart-link" href="https://www.argentina.gob.ar/sites/default/files/criterios-seleccion-donantes_salud.pdf">criterios de selección</a> de donantes de la Dirección de Sangre y Medicina Transfusional del Ministerio de Salud de la Nación.</p>
+      <p class="chart-text">
+        Descargá los
+        <a
+          class="chart-link"
+          href="https://www.argentina.gob.ar/sites/default/files/criterios-seleccion-donantes_salud.pdf"
+          >criterios de selección</a
+        >
+        de donantes de la Dirección de Sangre y Medicina Transfusional del
+        Ministerio de Salud de la Nación.
+      </p>
     </section>
     <!-- FIN COMPATIBILITY -->
 
     <!-- INICIO AWARENESS -->
     <div class="awareness-container">
-        <img class="babyhand-img-mobile" src="images/babyhand.png" alt="babyhand">
-        <section class="awareness-container container">
-            <div class="awareness-info">
-            <h2 class="awareness-title">Para tomar conciencia</h2>
+      <img
+        class="babyhand-img-mobile"
+        src="images/babyhand.png"
+        alt="babyhand"
+      />
+      <section class="awareness-container container">
+        <div class="awareness-info">
+          <h2 class="awareness-title">Para tomar conciencia</h2>
 
-            <div class="awareness-p-desktop">
-                <p class="awareness-text1">Si el 3 a 5% de los ciudadanos se le ocurre donar 2 veces al año se cubre el 100% de las necesidades del pais. La sangre donada se separa para que cada paciente reciba el componente que necesita para mejorar.</p>
-                <p class="awareness-text2">Por eso, es muy importante que la población contribuya con su donación en los bancos de sangre de su localidad. Con este aporte, se puede asegurar una atención médica de calidad a todo aquel que la necesite.</p>
-            </div>
+          <div class="awareness-p-desktop">
+            <p class="awareness-text1">
+              Si el 3 a 5% de los ciudadanos se le ocurre donar 2 veces al año
+              se cubre el 100% de las necesidades del pais. La sangre donada se
+              separa para que cada paciente reciba el componente que necesita
+              para mejorar.
+            </p>
+            <p class="awareness-text2">
+              Por eso, es muy importante que la población contribuya con su
+              donación en los bancos de sangre de su localidad. Con este aporte,
+              se puede asegurar una atención médica de calidad a todo aquel que
+              la necesite.
+            </p>
+          </div>
         </div>
-        <img class="babyhand-img-desktop" src="images/babyhand.png" alt="babyhand">
-        </section>
+        <img
+          class="babyhand-img-desktop"
+          src="images/babyhand.png"
+          alt="babyhand - Donando Sangre"
+        />
+      </section>
     </div>
-    
+
     <!-- FIN AWARENESS -->
 
     <!-- INICIO FOOTER -->
     <footer class="container">
-        <div class="footer-logo-container">
-            <img class="footer-logo" src="images/logo-footer.png" alt="Logo">
-        </div>
+      <div class="footer-logo-container">
+        <img
+          class="footer-logo"
+          src="images/logo-footer.png"
+          alt="Logo - Donando Sangre"
+        />
+      </div>
 
-        <div class="footer-items-container">
-            <div class="footer-donate">
-                <a href="#" class="text-bold">Donar</a>
-                <a href="#">Requisitos</a>
-                <a href="#">Turnos</a>
-                <a href="#">Dónde donar</a>
-            </div>
-            <div class="footer-testimonials">
-                <a href="#" class="text-bold">Testimonios</a>
-                <a href="#">Testimonios</a>
-            </div>
-            <div class="footer-blood">
-                <a href="#" class="text-bold">La sangre</a>
-                <a href="#">¿Qué es la sangre?</a>
-                <a href="#">Grupos sanguíneos</a>
-            </div>
-            <div class="footer-us">
-                <a href="#" class="text-bold">Nosostros</a>
-                <a href="#">A.A.H.I.T.C</a>
-                <a href="#">Campañas</a>
-            </div>
-            <div class="footer-faq">
-                <a href="#" class="text-bold">FAQ</a>
-                <a href="#">Dudas y mitos</a>
-            </div>
-            <div class="footer-contact">
-                <a href="#" class="text-bold">Contacto</a>
-            </div>
+      <div class="footer-items-container">
+        <div class="footer-donate">
+          <a href="#" class="text-bold">Donar</a>
+          <a href="#">Requisitos</a>
+          <a href="#">Turnos</a>
+          <a href="#">Dónde donar</a>
         </div>
+        <div class="footer-testimonials">
+          <a href="#" class="text-bold">Testimonios</a>
+          <a href="#">Testimonios</a>
+        </div>
+        <div class="footer-blood">
+          <a href="#" class="text-bold">La sangre</a>
+          <a href="#">¿Qué es la sangre?</a>
+          <a href="#">Grupos sanguíneos</a>
+        </div>
+        <div class="footer-us">
+          <a href="#" class="text-bold">Nosostros</a>
+          <a href="#">A.A.H.I.T.C</a>
+          <a href="#">Campañas</a>
+        </div>
+        <div class="footer-faq">
+          <a href="#" class="text-bold">FAQ</a>
+          <a href="#">Dudas y mitos</a>
+        </div>
+        <div class="footer-contact">
+          <a href="#" class="text-bold">Contacto</a>
+        </div>
+      </div>
 
-        <div class="social-media-legals-container">
-            <div class="qr-code-container">
-                <img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
-            </div>
-            <div class="social-media">
-                <img src="images/instagram.png" alt="Instagram">
-                <img src="images/twitter.png" alt="Twitter">
-                <img src="images/youtube.png" alt="Youtube">
-                <img src="images/facebook.png" alt="Facebook">
-            </div>
-            <div class="legals-container">
-                <p class="legals text-white text-center">2022 Todos los derechos reservados</p>
-                <p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
-            </div>
+      <div class="social-media-legals-container">
+        <div class="qr-code-container">
+          <img
+            class="qr-code"
+            src="images/qr-code.png"
+            alt="Donar Sangre - Donando Sangre"
+          />
         </div>
+        <div class="social-media">
+          <img src="images/instagram.png" alt="Instagram - Donando Sangre" />
+          <img src="images/twitter.png" alt="Twitter - Donando Sangre" />
+          <img src="images/youtube.png" alt="Youtube - Donando Sangre" />
+          <img src="images/facebook.png" alt="Facebook - Donando Sangre" />
+        </div>
+        <div class="legals-container">
+          <p class="legals text-white text-center">
+            2022 Todos los derechos reservados
+          </p>
+          <p class="legals text-white text-center">
+            Asociación Hemoterapia e Inmunohematología
+          </p>
+        </div>
+      </div>
     </footer>
     <!-- FIN FOOTER -->
 
-
-    <script src="https://code.jquery.com/jquery-3.6.1.js"
-        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
-
-</body>
+  </body>
 </html>

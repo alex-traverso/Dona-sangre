@@ -1,144 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- encoding de caracteres -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Meta para responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/05175f9f05.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Título único en cada pagina HTML -->
-    <title>Contacto</title>
-</head>
+    <meta
+      name="description"
+      content="Si querés contactarte con nosotros no dudes en completar el formulario. Si tenés una duda sobre los requisitos para donar sangre, revisá nuestras preguntas frecuentes."
+    />
+    <title>Contacto - Donando Sangre</title>
+  </head>
 
-<body>
+  <body>
     <!-- INICIO NAVBAR -->
     <div class="navbar">
-        <a href="/index.html">
-            <img class="logo" src="images/logo-donar-sangre.png" alt="Dona sangre">
-        </a>
-        <div class="toggler">
-            <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path
-                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/donar-sangre.html">Donar</a></li>
-                <li><a href="/testimonios.html">Testimonios</a></li>
-                <li><a href="/la-sangre.html">La sangre</a></li>
-                <li><a href="/nosotros.html">Nosotros</a></li>
-                <li><a href="/ayudanos.html">Ayudanos</a></li>
-                <li><a href="/contacto.html">Contacto</a></li>
-                <li><a href="/faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+      <a href="/index.html">
+        <img
+          class="logo"
+          src="images/logo-donar-sangre.png"
+          alt="Dona sangre"
+        />
+      </a>
+      <div class="toggler">
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/donar-sangre.html">Donar</a></li>
+          <li><a href="/testimonios.html">Testimonios</a></li>
+          <li><a href="/la-sangre.html">La sangre</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/ayudanos.html">Ayudanos</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+      </nav>
     </div>
     <!-- FIN NAVBAR -->
 
     <!-- INICIO CONTACT -->
     <section class="contact-container container">
-        <div class="contact-info">
-            <h2 class="contact-title">Contacto</h2>
-            <p class="contact-caption">
-                Si querés contactarte con nosotros no dudes en completar el formulario. Si tenés una duda sobre los
-                requisitos para donar sangre, revisá nuestras preguntas frecuentes.
-            </p>
-            <img class="contact-img" src="images/contacto.png" alt="Contacto">
-        </div>
-        <div class="form-container">
-            <form action="">
-                <input class="form-name" type="text" placeholder="Nombre">
-                <input class="form-l-name" type="text" placeholder="Apellido">
-                <input class="form-email" type="text" placeholder="Email">
-                <input class="form-phone" type="text" placeholder="Teléfono">
-                <input class="form-city" type="text" placeholder="Ciudad">
-                <input class="form-country" type="text" placeholder="País">
-                <textarea placeholder="Mensaje"></textarea>
-                <button type="submit" class="btn primary-btn form-btn">Enviar</button>
-            </form>
-        </div>
+      <article class="contact-info">
+        <h2 class="contact-title">Contacto</h2>
+        <p class="contact-caption">
+          Si querés contactarte con nosotros no dudes en completar el
+          formulario. Si tenés una duda sobre los requisitos para donar sangre,
+          revisá nuestras preguntas frecuentes.
+        </p>
+        <img class="contact-img" src="images/contacto.png" alt="Contacto" />
+      </article>
+      <div class="form-container">
+        <form action="">
+          <input class="form-name" type="text" placeholder="Nombre" />
+          <input class="form-l-name" type="text" placeholder="Apellido" />
+          <input class="form-email" type="text" placeholder="Email" />
+          <input class="form-phone" type="text" placeholder="Teléfono" />
+          <input class="form-city" type="text" placeholder="Ciudad" />
+          <input class="form-country" type="text" placeholder="País" />
+          <textarea placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn primary-btn form-btn">Enviar</button>
+        </form>
+      </div>
     </section>
     <!-- FIN CONTACT -->
 
     <!-- INICIO WHERE -->
     <section class="where-container-cont container">
-        <div class="where-content-cont">
-            <h2 class="where-title-mobile">Dónde donar</h2>
-            <div class="where-info">
-                <h2 class="where-title-desktop">Dónde donar</h2>
-                <p class="where-text">Para evitar la aglomeración de personas, se brindan turnos programados de donación
-                    voluntaria de sangre. La Red de Medicina Transfusional del Ministerio de Salud del GCABA informa las
-                    próximas campañas de donación voluntaria
-                    de sangre. También puede sacar turno en Servicios
-                    de Hemoterapia de hospitales.
-                </p>
-            </div>
-            <input class="where-search" type="search" placeholder="¿Qué estás buscando?">
-            <iframe class="where-map-db" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.477401964526!2d-58.383998184236404!3d-34.61737416572886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1667592326169!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="where-content-cont">
+        <h2 class="where-title-mobile">Dónde donar</h2>
+        <div class="where-info">
+          <h2 class="where-title-desktop">Dónde donar</h2>
+          <p class="where-text">
+            Para evitar la aglomeración de personas, se brindan turnos
+            programados de donación voluntaria de sangre. La Red de Medicina
+            Transfusional del Ministerio de Salud del GCABA informa las próximas
+            campañas de donación voluntaria de sangre. También puede sacar turno
+            en Servicios de Hemoterapia de hospitales.
+          </p>
         </div>
+        <input
+          class="where-search"
+          type="search"
+          placeholder="¿Qué estás buscando?"
+        />
+        <iframe
+          class="where-map-db"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.477401964526!2d-58.383998184236404!3d-34.61737416572886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1667592326169!5m2!1ses-419!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
     <!-- FIN WHERE -->
 
     <!-- INICIO FOOTER -->
     <footer class="container">
-        <div class="footer-logo-container">
-            <img class="footer-logo" src="images/logo-footer.png" alt="Logo">
+      <div class="footer-logo-container">
+        <img
+          class="footer-logo"
+          src="images/logo-footer.png"
+          alt="Logo - Donando Sangre"
+        />
+      </div>
+
+      <div class="footer-items-container">
+        <div class="footer-donate">
+          <a href="#" class="text-bold">Donar</a>
+          <a href="#">Requisitos</a>
+          <a href="#">Turnos</a>
+          <a href="#">Dónde donar</a>
         </div>
-    
-        <div class="footer-items-container">
-            <div class="footer-donate">
-                <a href="#" class="text-bold">Donar</a>
-                <a href="#">Requisitos</a>
-                <a href="#">Turnos</a>
-                <a href="#">Dónde donar</a>
-            </div>
-            <div class="footer-testimonials">
-                <a href="#" class="text-bold">Testimonios</a>
-                <a href="#">Testimonios</a>
-            </div>
-            <div class="footer-blood">
-                <a href="#" class="text-bold">La sangre</a>
-                <a href="#">¿Qué es la sangre?</a>
-                <a href="#">Grupos sanguíneos</a>
-            </div>
-            <div class="footer-us">
-                <a href="#" class="text-bold">A.A.H.I.T.C</a>
-                <a href="#">Campañas</a>
-            </div>
-            <div class="footer-faq">
-                <a href="#" class="text-bold">Dudas y mitos</a>
-            </div>
-            <div class="footer-contact">
-                <a href="#" class="text-bold">Contacto</a>
-            </div>
+        <div class="footer-testimonials">
+          <a href="#" class="text-bold">Testimonios</a>
+          <a href="#">Testimonios</a>
         </div>
-    
-        <div class="social-media-legals-container">
-            <div class="qr-code-container">
-                <img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
-            </div>
-            <div class="social-media">
-                <img src="images/instagram.png" alt="Instagram">
-                <img src="images/twitter.png" alt="Twitter">
-                <img src="images/youtube.png" alt="Youtube">
-                <img src="images/facebook.png" alt="Facebook">
-            </div>
-            <div class="legals-container">
-                <p class="legals text-white text-center">2022 Todos los derechos reservados</p>
-                <p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
-            </div>
+        <div class="footer-blood">
+          <a href="#" class="text-bold">La sangre</a>
+          <a href="#">¿Qué es la sangre?</a>
+          <a href="#">Grupos sanguíneos</a>
         </div>
-    
+        <div class="footer-us">
+          <a href="#" class="text-bold">A.A.H.I.T.C</a>
+          <a href="#">Campañas</a>
+        </div>
+        <div class="footer-faq">
+          <a href="#" class="text-bold">Dudas y mitos</a>
+        </div>
+        <div class="footer-contact">
+          <a href="#" class="text-bold">Contacto</a>
+        </div>
+      </div>
+
+      <div class="social-media-legals-container">
+        <div class="qr-code-container">
+          <img
+            class="qr-code"
+            src="images/qr-code.png"
+            alt="Donar Sangre - Donando Sangre"
+          />
+        </div>
+        <div class="social-media">
+          <img src="images/instagram.png" alt="Instagram - Donando Sangre" />
+          <img src="images/twitter.png" alt="Twitter - Donando Sangre" />
+          <img src="images/youtube.png" alt="Youtube - Donando Sangre" />
+          <img src="images/facebook.png" alt="Facebook - Donando Sangre" />
+        </div>
+        <div class="legals-container">
+          <p class="legals text-white text-center">
+            2022 Todos los derechos reservados
+          </p>
+          <p class="legals text-white text-center">
+            Asociación Hemoterapia e Inmunohematología
+          </p>
+        </div>
+      </div>
     </footer>
     <!-- FIN FOOTER -->
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
-    
-</body>
+  </body>
 </html>
