@@ -1,260 +1,361 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <!-- encoding de caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Meta para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <meta
+      name="description"
+      content="Dona sangre para salvar vidas. Es un proceso rápido seguro e indoloro. Ingresá para ver donde y como podes donar."
+    />
+    <script
+      src="https://kit.fontawesome.com/05175f9f05.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e4e36c659e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Título único en cada pagina HTML -->
+    <meta
+      name="description"
+      content="Doná sangre para salvar vidas. Es un proceso rápido, seguro e indoloro. Muchas personas agredecerán tu colaboración."
+    />
+    <title>Home - Donando Sangre</title>
+  </head>
 
-<head>
-	<!-- encoding de caracteres -->
-	<meta charset="UTF-8">
-	<!-- Meta para responsive design -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="styles/styles.css">
-	<!-- Título único en cada pagina HTML -->
-	<title>Dona sangre</title>
-</head>
+  <body>
+    <!-- INICIO NAVBAR -->
+    <div class="navbar">
+      <a href="/index.html">
+        <img
+          class="logo"
+          src="images/logo-donar-sangre.png"
+          alt="logo - Dona Sangre"
+        />
+      </a>
+      <div class="toggler">
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/donar-sangre.html">Donar</a></li>
+          <li><a href="/testimonios.html">Testimonios</a></li>
+          <li><a href="/la-sangre.html">La sangre</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/ayudanos.html">Ayudanos</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
 
-<body>
-	<!-- INICIO NAVBAR -->
-	<div class="navbar">
-		<a href="/index.html">
-			<img class="logo" src="images/logo-donar-sangre.png" alt="Dona sangre">
-		</a>
-		<div class="toggler">
-			<svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-				<path
-					d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-			</svg>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="/donar-sangre.html">Donar</a></li>
-				<li><a href="/testimonios.html">Testimonios</a></li>
-				<li><a href="/lasangre.html">La sangre</a></li>
-				<li><a href="/nosotros.html">Nosotros</a></li>
-				<li><a href="/ayudanos.html">Ayudanos</a></li>
-				<li><a href="/contacto.html">Contacto</a></li>
-				<li><a href="/faq.html">FAQ</a></li>
-			</ul>
-		</nav>
-	</div>
+    <!-- INICIO BANNER -->
+    <header class="banner">
+      <div class="banner-info container">
+        <h1 class="banner-title text-red text-center">
+          Doná sangre para salvar vidas
+        </h1>
+        <p class="banner-caption text-black text-center">
+          Es un proceso rápido, seguro e indoloro. Muchas personas agredecerán
+          tu colaboración.
+        </p>
+        <button class="btn primary-btn banner-btn">Quiero donar</button>
+        <a class="btn-know-us" href="#">Conocenos</a>
+      </div>
+    </header>
+    <!-- FIN BANNER -->
 
-	<!-- INICIO BANNER -->
-	<div class="banner"></div>
-	<div class="banner-info container">
-		<h1 class="banner-title text-red text-center">Doná sangre para salvar vidas</h1>
-		<p class="banner-caption text-black text-center">Es un proceso rápido, seguro e indoloro. Muchas personas
-			agredecerán tu
-			colaboración.</p>
-		<button class=" btn primary-btn banner-btn">Quiero donar</button>
-		<a class="btn-know-us" href="#">Conocenos</a>
-	</div>
-	<!-- FIN BANNER -->
+    <!-- INICIO WHY -->
+    <section class="why-container container">
+      <h2 class="why-title-mobile text-center">¿Por qué donar?</h2>
+      <iframe
+        class="why-video"
+        src="https://www.youtube.com/embed/2JUptdfrOGk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div class="why-info">
+        <h2 class="why-title-desktop text-center">¿Por qué donar?</h2>
+        <p class="why-text">
+          Las donaciones regulares de sangre de personas sanas son
+          imprescindibles para garantizar la disponibilidad de sangre segura en
+          el momento y el lugar en que se precise. Queremos que la sangre espere
+          al paciente, y no el paciente a la sangre.
+        </p>
+        <button class="btn primary-btn">Conocé más</button>
+      </div>
+    </section>
+    <!-- FIN WHY -->
 
-	<!-- INICIO WHY -->
-	<section class="why-container container">
-		<h2 class="why-title-mobile text-center">¿Por qué donar?</h2>
-		<img class="why-img" src="images/donar-video.png" alt="¿Por qué donar?">
-		<div class="why-info">
-			<h2 class="why-title-desktop text-center">¿Por qué donar?</h2>
-			<p class="why-text">Las donaciones regulares de sangre de personas sanas son imprescindibles para
-				garantizar
-				la disponibilidad de sangre segura en el momento
-				y el lugar en que se precise. Queremos que la sangre espere al paciente, y no el paciente a la sangre.
-			</p>
-			<button class="btn primary-btn">Conocé más</button>
-		</div>
-	</section>
-	<!-- FIN WHY -->
+    <!-- INICIO REQ -->
+    <section class="req-container container">
+      <div class="req-title-text-info text-center">
+        <h2 class="req-title text-red">Requisitos para poder donar</h2>
+        <p class="req-text">
+          La mayoría de las personas pueden donar sangre si gozan de buena
+          salud. A continuación se presentan algunos requisitos básicos para
+          hacerse donante de sangre.
+        </p>
+      </div>
+      <div class="req-imgs-container">
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/edad-16-65.png"
+            alt="req edad - Dona Sangre"
+          />
+          <p class="req-caption">Tener entre 16 y 65 años</p>
+        </div>
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/50kg.png"
+            alt="req peso - Dona Sangre"
+          />
+          <p class="req-caption">Pesar más de 50 kilos</p>
+        </div>
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/2-meses.png"
+            alt="req tiempo desde ultima donacion - Dona Sangre"
+          />
+          <p class="req-caption">2 meses desde la última donación de sangre</p>
+        </div>
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/dormir.png"
+            alt="req sueño - Dona Sangre"
+          />
+          <p class="req-caption">Dormir más de 6 horas</p>
+        </div>
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/desayunar-almorzar.png"
+            alt="req desayunar/almorzar - Dona Sangre"
+          />
+          <p class="req-caption">Desayunar y/o almorzar</p>
+        </div>
+        <div class="req-info">
+          <img
+            class="req-img"
+            src="images/salud.png"
+            alt="req estado salud - Dona Sangre"
+          />
+          <p class="req-caption">Tener buen estado de salud</p>
+        </div>
+      </div>
+    </section>
+    <!-- FIN REQ -->
 
-	<!-- INICIO REQ -->
-	<section class="req-container container">
-		<div class="req-title-text-info text-center">
-			<h2 class="req-title text-red">Requisitos para poder donar</h2>
-			<p class="req-text">La mayoría de las personas pueden donar sangre si gozan de buena salud. A
-				continuación se presentan algunos requisitos básicos para hacerse donante de sangre.</p>
-		</div>
-		<div class="req-imgs-container">
-			<div class="req-info">
-				<img class="req-img" src="images/edad-16-65.png" alt="Tener entre 16 y 65 años">
-				<p class="req-caption">Tener entre 16 y 65 años</p>
-			</div>
-			<div class="req-info">
-				<img class="req-img" src="images/50kg.png" alt="Pesar más de 50 kilos">
-				<p class="req-caption">Pesar más de 50 kilos</p>
-			</div>
-			<div class="req-info">
-				<img class="req-img" src="images/2-meses.png" alt="2 meses desde la última donación de sangre">
-				<p class="req-caption">2 meses desde la última donación de sangre</p>
-			</div>
-			<div class="req-info">
-				<img class="req-img" src="images/dormir.png" alt="Dormir más de 6 horas">
-				<p class="req-caption">Dormir más de 6 horas</p>
-			</div>
-			<div class="req-info">
-				<img class="req-img" src="images/desayunar-almorzar.png" alt="Desayunar y/o almorzar">
-				<p class="req-caption">Desayunar y/o almorzar</p>
-			</div>
-			<div class="req-info">
-				<img class="req-img" src="images/salud.png" alt="Tener buen estado de salud">
-				<p class="req-caption">Tener buen estado de salud</p>
-			</div>
-		</div>
-	</section>
-	<!-- FIN REQ -->
+    <!-- INICIO WHERE -->
+    <section class="where-container container">
+      <div class="where-content">
+        <h2 class="where-title-mobile">Dónde donar</h2>
+        <iframe
+          class="where-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.477401964526!2d-58.383998184236404!3d-34.61737416572886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1667592326169!5m2!1ses-419!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="where-info">
+          <h2 class="where-title-desktop">Dónde donar</h2>
+          <p class="where-text">
+            Para evitar la aglomeración de personas, se brindan turnos
+            programados de donación voluntaria de sangre. La Red de Medicina
+            Transfusional del Ministerio de Salud del GCABA informa las próximas
+            campañas de donación voluntaria de sangre. También puede sacar turno
+            en Servicios de Hemoterapia de hospitales.
+          </p>
+          <button class="btn alternative-btn">Reservá tu turno</button>
+        </div>
+      </div>
+    </section>
+    <!-- FIN WHERE -->
 
-	<!-- INICIO WHERE -->
-	<section class="where-container container">
-		<div class="where-content">
-			<h2 class="where-title-mobile">Dónde donar</h2>
-			<iframe class="where-map"
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.477401964526!2d-58.383998184236404!3d-34.61737416572886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1667592326169!5m2!1ses-419!2sar"
-				width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade"></iframe>
-			<div class="where-info">
-				<h2 class="where-title-desktop">Dónde donar</h2>
-				<p class="where-text">Para evitar la aglomeración de personas, se brindan turnos programados de donación
-					voluntaria de sangre. La Red de Medicina Transfusional del Ministerio de Salud del GCABA informa las
-					próximas campañas de donación voluntaria
-					de sangre. También puede sacar turno en Servicios
-					de Hemoterapia de hospitales.
-				</p>
-				<button class="btn alternative-btn">Reservá tu turno</button>
-			</div>
-		</div>
-	</section>
-	<!-- FIN WHERE -->
+    <!-- INICIO CONTACT -->
+    <section class="contact-container container">
+      <div class="contact-info">
+        <h2 class="contact-title">Contacto</h2>
+        <p class="contact-caption">
+          Si querés contactarte con nosotros no dudes en completar el
+          formulario. Si tenés una duda sobre los requisitos para donar sangre,
+          revisá nuestras preguntas frecuentes.
+        </p>
+        <img class="contact-img" src="images/contacto.png" alt="Contacto" />
+      </div>
+      <div class="form-container">
+        <form action="">
+          <input class="form-name" type="text" placeholder="Nombre" />
+          <input class="form-l-name" type="text" placeholder="Apellido" />
+          <input class="form-email" type="text" placeholder="Email" />
+          <input class="form-phone" type="text" placeholder="Teléfono" />
+          <input class="form-city" type="text" placeholder="Ciudad" />
+          <input class="form-country" type="text" placeholder="País" />
+          <textarea placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn primary-btn form-btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- FIN CONTACT -->
 
-	<!-- INICIO CONTACT -->
-	<section class="contact-container container">
-		<div class="contact-info">
-			<h2 class="contact-title">Contacto</h2>
-			<p class="contact-caption">
-				Si querés contactarte con nosotros no dudes en completar el formulario. Si tenés una duda sobre los
-				requisitos para donar sangre, revisá nuestras preguntas frecuentes.
-			</p>
-			<img class="contact-img" src="images/contacto.png" alt="Contacto">
-		</div>
-		<div class="form-container">
-			<form action="">
-				<input class="form-name" type="text" placeholder="Nombre">
-				<input class="form-l-name" type="text" placeholder="Apellido">
-				<input class="form-email" type="text" placeholder="Email">
-				<input class="form-phone" type="text" placeholder="Teléfono">
-				<input class="form-city" type="text" placeholder="Ciudad">
-				<input class="form-country" type="text" placeholder="País">
-				<textarea placeholder="Mensaje"></textarea>
-				<button type="submit" class="btn primary-btn form-btn">Enviar</button>
-			</form>
-		</div>
-	</section>
-	<!-- FIN CONTACT -->
+    <!-- INICIO NEWS -->
+    <section class="news-container container">
+      <h2 class="news-title">Noticias</h2>
+      <div class="news-card-container">
+        <article class="new-info">
+          <img
+            class="new-img"
+            src="images/nov-covid-19.png"
+            alt="Novedades Covid-19 - Dona Sangre"
+          />
+          <h3 class="new-card-title">Novedades Covid-19</h3>
+          <p class="new-card-caption">
+            Por el Covid, bajaron las donaciones pero las transfusiones siguen
+            siendo importante para salvar miles de vidas. Cómo y dónde donar.
+          </p>
+          <button class="btn primary-btn">Ver más</button>
+        </article>
+        <article class="new-info">
+          <img
+            class="new-img"
+            src="images/donar-plasma.png"
+            alt="Novedades Covid-19 - Dona Sangre"
+          />
+          <h3 class="new-card-title">Donar Plasma</h3>
+          <p class="new-card-caption">
+            Por el Covid, bajaron las donaciones pero las transfusiones siguen
+            siendo importante para salvar miles de vidas. Cómo y dónde donar.
+          </p>
+          <button class="btn primary-btn">Ver más</button>
+        </article>
+        <article class="new-info">
+          <img
+            class="new-img"
+            src="images/mas-gente-donar.png"
+            alt="Novedades Covid-19 - Dona Sangre"
+          />
+          <h3 class="new-card-title">Más gente puede donar</h3>
+          <p class="new-card-caption">
+            Por el Covid, bajaron las donaciones pero las transfusiones siguen
+            siendo importante para salvar miles de vidas. Cómo y dónde donar.
+          </p>
+          <button class="btn primary-btn">Ver más</button>
+        </article>
+      </div>
+    </section>
+    <!-- FIN NEWS -->
 
-	<!-- INICIO NEWS -->
-	<section class="news-container container">
-		<h2 class="news-title">Noticias</h2>
-		<div class="news-card-container">
-			<div class="new-info">
-				<img class="new-img" src="images/nov-covid-19.png" alt="Novedades Covid-19">
-				<h3 class="new-card-title">Novedades Covid-19</h3>
-				<p class="new-card-caption">Por el Covid, bajaron las donaciones pero las transfusiones siguen siendo
-					importante para salvar miles de vidas. Cómo y dónde donar.</p>
-				<button class="btn primary-btn">Ver más</button>
-			</div>
-			<div class="new-info">
-				<img class="new-img" src="images/donar-plasma.png" alt="Novedades Covid-19">
-				<h3 class="new-card-title">Donar Plasma</h3>
-				<p class="new-card-caption">Por el Covid, bajaron las donaciones pero las transfusiones siguen siendo
-					importante para salvar miles de vidas. Cómo y dónde donar.</p>
-				<button class="btn primary-btn">Ver más</button>
-			</div>
-			<div class="new-info">
-				<img class="new-img" src="images/mas-gente-donar.png" alt="Novedades Covid-19">
-				<h3 class="new-card-title">Más gente puede donar</h3>
-				<p class="new-card-caption">Por el Covid, bajaron las donaciones pero las transfusiones siguen siendo
-					importante para salvar miles de vidas. Cómo y dónde donar.</p>
-				<button class="btn primary-btn">Ver más</button>
-			</div>
-		</div>
-	</section>
-	<!-- FIN NEWS -->
+    <!-- INICIO NEWSLETTER -->
+    <section class="newsletter-container container">
+      <div class="newsletter-info-container">
+        <div class="newsletter-info">
+          <h2 class="newsletter-title">Recibí nuestro Nesletter</h2>
+          <p class="newsletter-caption">
+            Suscribite a nuestro Newsletter para estar siempre al tanto de la
+            última información.
+          </p>
+        </div>
+      </div>
+      <div class="newsletter-submit">
+        <input
+          class="newsletter-input"
+          type="email"
+          placeholder="Ingresá tu email"
+        />
+        <button class="btn second-btn">Suscribite</button>
+      </div>
+    </section>
+    <!-- FIN NEWSLETTER -->
 
-	<!-- INICIO NEWSLETTER -->
-	<section class="newsletter-container container">
-		<div class="newsletter-info-container">
-			<div class="newsletter-info">
-				<h2 class="newsletter-title">Recibí nuestro Nesletter</h2>
-				<p class="newsletter-caption">Suscribite a nuestro Newsletter para estar siempre al tanto de la última
-					información.</p>
-			</div>
-		</div>
-		<div class="newsletter-submit">
-			<input class="newsletter-input" type="email" placeholder="Ingresá tu email">
-			<button class="btn second-btn">Suscribite</button>
-		</div>
-	</section>
-	<!-- FIN NEWSLETTER -->
+    <!-- INICIO FOOTER -->
+    <footer class="container">
+      <div class="footer-logo-container">
+        <img class="footer-logo" src="images/logo-footer.png" alt="Logo" />
+      </div>
 
-	<!-- INICIO FOOTER -->
-	<footer class="container">
-		<div class="footer-logo-container">
-			<img class="footer-logo" src="images/logo-footer.png" alt="Logo">
-		</div>
+      <div class="footer-items-container">
+        <div class="footer-donate">
+          <a href="#" class="text-bold">Donar</a>
+          <a href="#">Requisitos</a>
+          <a href="#">Turnos</a>
+          <a href="#">Dónde donar</a>
+        </div>
+        <div class="footer-testimonials">
+          <a href="#" class="text-bold">Testimonios</a>
+          <a href="#">Testimonios</a>
+        </div>
+        <div class="footer-blood">
+          <a href="#" class="text-bold">La sangre</a>
+          <a href="#">¿Qué es la sangre?</a>
+          <a href="#">Grupos sanguíneos</a>
+        </div>
+        <div class="footer-us">
+          <a href="#" class="text-bold">Nosostros</a>
+          <a href="#">A.A.H.I.T.C</a>
+          <a href="#">Campañas</a>
+        </div>
+        <div class="footer-faq">
+          <a href="#" class="text-bold">FAQ</a>
+          <a href="#">Dudas y mitos</a>
+        </div>
+        <div class="footer-contact">
+          <a href="#" class="text-bold">Contacto</a>
+        </div>
+      </div>
 
-		<div class="footer-items-container">
-			<div class="footer-donate">
-				<a href="#" class="text-bold">Donar</a>
-				<a href="#">Requisitos</a>
-				<a href="#">Turnos</a>
-				<a href="#">Dónde donar</a>
-			</div>
-			<div class="footer-testimonials">
-				<a href="#" class="text-bold">Testimonios</a>
-				<a href="#">Testimonios</a>
-			</div>
-			<div class="footer-blood">
-				<a href="#" class="text-bold">La sangre</a>
-				<a href="#">¿Qué es la sangre?</a>
-				<a href="#">Grupos sanguíneos</a>
-			</div>
-			<div class="footer-us">
-				<a href="#" class="text-bold">Nosostros</a>
-				<a href="#">A.A.H.I.T.C</a>
-				<a href="#">Campañas</a>
-			</div>
-			<div class="footer-faq">
-				<a href="#" class="text-bold">FAQ</a>
-				<a href="#">Dudas y mitos</a>
-			</div>
-			<div class="footer-contact">
-				<a href="#" class="text-bold">Contacto</a>
-			</div>
-		</div>
+      <div class="social-media-legals-container">
+        <div class="qr-code-container">
+          <img class="qr-code" src="images/qr-code.png" alt="Donar Sangre" />
+        </div>
+        <div class="social-media">
+          <img src="images/instagram.png" alt="Instagram" />
+          <img src="images/twitter.png" alt="Twitter" />
+          <img src="images/youtube.png" alt="Youtube" />
+          <img src="images/facebook.png" alt="Facebook" />
+        </div>
+        <div class="legals-container">
+          <p class="legals text-white text-center">
+            2022 Todos los derechos reservados
+          </p>
+          <p class="legals text-white text-center">
+            Asociación Hemoterapia e Inmunohematología
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
 
-		<div class="social-media-legals-container">
-			<div class="qr-code-container">
-				<img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
-			</div>
-			<div class="social-media">
-				<img src="images/instagram.png" alt="Instagram">
-				<img src="images/twitter.png" alt="Twitter">
-				<img src="images/youtube.png" alt="Youtube">
-				<img src="images/facebook.png" alt="Facebook">
-			</div>
-			<div class="legals-container">
-				<p class="legals text-white text-center">2022 Todos los derechos reservados</p>
-				<p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
-			</div>
-		</div>
-	</footer>
-	<!-- FIN FOOTER -->
-
-
-	<script src="https://code.jquery.com/jquery-3.6.1.js"
-		integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-	<script src="index.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
