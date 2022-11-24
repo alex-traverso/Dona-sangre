@@ -29,7 +29,7 @@
 body {
 	/* Herencia */
 	font-family: 'Inter', sans-serif;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,22 +37,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: 900;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: bold;
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 1.75rem;
 	font-weight: bold;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 700;
 }
 
@@ -62,7 +62,7 @@ a {
 }
 
 p {
-	font-size: 18px;
+	font-size: 1.12rem;
 	line-height: 25px;
 }
 
@@ -152,6 +152,10 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
 }
 
 .logo {
@@ -176,11 +180,10 @@ nav {
 
 nav ul {
 	list-style: none;
-	position: absolute;
+	position: fixed;
 	top: 5rem;
 	width: 80%;
 	height: 100vh;
-	left: 0;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
@@ -209,8 +212,9 @@ nav ul li a:hover {
 /*INICIO BANNER */
 .banner {
 	background-image: url(../images/banner.png);
-	height: calc(70vh - 10vh);
-	background-position: right 35% bottom 70%;
+    height: calc(70vh - 10vh);
+    background-position: right 35% bottom 70%;
+    margin-top: 80px;
 }
 
 .banner-info {
@@ -349,7 +353,7 @@ nav ul li a:hover {
 
 /* INICIO CONTACT */
 .contact-container {
-	margin-top: 50px;
+	margin-top: 80px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -540,6 +544,10 @@ textarea {
 /* FIN HOME */
 
 /* INICIO DONAR SANGRE */
+.donate-container {
+	margin-top: 80px;
+}
+
 .donate-container-info {
 	display: flex;
 	flex-direction: column;
@@ -576,6 +584,10 @@ textarea {
 /* FIN DONAR SANGRE */
 
 /* INICIO TESTIMONIOS */
+.testimonials-container {
+	margin-top: 80px;
+}
+
 .testimonials-container-info {
 	display: flex;
 	flex-direction: column;
@@ -620,6 +632,9 @@ textarea {
 /* FIN TESTIMONIOS */
 
 /* INICIO FAQ */
+.faq-banner-container {
+	margin-top: 80px;
+}
 
 .faq-container {
 	margin-bottom: 150px;
@@ -842,6 +857,7 @@ textarea {
 .donation-container {
 	background-color: var(--turquoise-01);
 	height: 90vh;
+	margin-top: 80px;
 }
 
 .donation-img {
@@ -944,30 +960,197 @@ textarea {
 	margin-top: 0;
 	width: 100%;
 }
-
 /*FIN CONTACT*/
+
+/* SECCIÓN LA SANGRE */
+
+/* HEADER BLOOD TYPES */
+
+.bloodtypes-container {
+	background-color: var(--turquoise-01);
+	height: max-content;
+	padding-top: 30px;
+	padding-bottom: 2.5rem;
+}
+
+.bloodtypes-video-mobile {
+	margin-top: 80px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--turquoise-01);
+}
+
+.bloodtypes-video{
+	width: 100%;
+	height: 300px;
+}
+
+.bloodtypes-video-desktop {
+	display: none;
+}
+
+.bloodtypes-title-mobile {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #FFFF;
+	padding-top: 1em;
+}
+
+.bloodtypes-title-desktop {
+	display: none;
+}
+
+.bloodtypes-info {
+	color: var(--grey-light);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.bloodtypes-subtitle,
+.bloodtypes-text {
+	margin-top: 30px;
+}	
+
+.bloodtypes-text {
+	text-align: left;
+}
+/* FINHEADER BLOOD TYPES */
+
+/* QUESTIONS */
+.questions-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.question1-title,
+.question2-title {
+	color: var(--turquoise-01);
+	font-size: 25px;
+	margin: 10px 0 10px 0;
+}
+
+.question-line {
+	border: 0;
+	background-color: var(--turquoise-01);
+	height: 2px;
+}
+
+.question1-text,
+.question2-text {
+	margin: 1em 0 1em 0;
+	text-align: left;
+}
+
+.bloodcells-img-desktop {
+	margin: 1em 0 1em 0;
+	display: none;
+}
+
+.bloodcells-img-mobile {
+	height: 270px;
+	width: 100%;
+	object-fit: cover;
+	margin: 1em 0 1em 0;
+}
+/* FIN QUESTIONS */
+
+/* COMPATIBILITY */
+
+.compatibility-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.compatibility-title {
+	color: var(--turquoise-01);
+}
+
+.compatibility-text {
+	margin: 1em 0 1em 0;
+	text-align: left;
+}
+
+.chart-text {
+	font-size: 15px;
+	font-weight: 100;
+	margin: 1em 0 1em 0;
+	text-align: left;
+	align-content: left;
+}
+
+.chart-link {
+	color: var(--turquoise-dark);
+}
+/* FIN COMPATIBILITY */
+
+/* INICIO AWARENESS */
+
+.awareness-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	padding-bottom: 2rem;
+	background-color: var(--turquoise-dark);
+}
+
+.awareness-title {
+	margin: 0 0 1em 0;
+	text-align: center;
+	color: #FFFF;
+}
+
+.awareness-text1,
+.awareness-text2 {
+	color: #FFFF;
+}
+
+.awareness-text2 {
+	margin-top: 1em;
+}
+
+.babyhand-img-mobile {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	margin-bottom: .8em;
+}
+
+.babyhand-img-desktop {
+	display: none;
+}
+/* FIN AWARENESS */
+
+/* FIN SECCIÓN LA SANGRE */
 
 
 /* Media queries-DESKTOP */
 @media (min-width: 1200px) {
 
 h1{
-	font-size: 60px;
+	font-size: 3.75rem;
 	font-weight: 900;
 }
 
 h2{
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: 800;
 }
 
 h3{
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
 h4{
-	font-size: 28px;
+	font-size: 1.75rem;
 	font-weight: 700;
 }
 
@@ -977,7 +1160,7 @@ a {
 }
 
 p {
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 25px;
 }
 
@@ -1056,6 +1239,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 10;
 }
 
 .toggler {
@@ -1102,7 +1286,8 @@ nav ul li {
 .banner {
 	background-image: url(../images/banner.png);
 	height: calc(100vh - 100px);
-	position: relative;
+	position: inherit;
+	margin-top: 100px;
 	background-position: center;
 }
 
@@ -1133,21 +1318,20 @@ nav ul li {
 /* INICIO WHY-DESKTOP */
 .why-container {
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: center;
-	padding-bottom: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 0;
 }
 
 .why-img {
-	width: 700px;
-	height: 400px;
-	object-fit: cover;
+	width: 800px;
+    height: 400px;
+    object-fit: cover;
 }
 .why-info {
 	margin-left: 2rem;
-	width: 40vw;
-	align-items: flex-start;
+    width: 30vw;
+    align-items: flex-start;
 }
 
 .why-title-mobile {
@@ -1219,8 +1403,8 @@ nav ul li {
 
 .where-map {
 	margin-top: 0;
-	width: 600px;
-	height: 400px;
+	width: 650px;
+	height: 500px;
 }
 
 .where-info, .where-info-db {
@@ -1250,10 +1434,9 @@ nav ul li {
 }
 /* FIN WHERE-DESKTOP */
 
-
 /* INICIO CONTACT-DESKTOP */
 .contact-container {
-	margin-top: 50px;
+	margin-top: 100px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -1503,6 +1686,7 @@ footer {
     align-items: flex-start;
     padding: 5rem 120px 0 120px;
     gap: 100px;
+	margin-top: 100px;
 }
 
 .testimonials-container-info {
@@ -1561,6 +1745,7 @@ footer {
 		align-items: flex-start;
 		padding: 5rem 120px 0 120px;
 		gap: 100px;
+		margin-top: 100px;
 	}
 
 	.donate-container-info {
@@ -1645,6 +1830,7 @@ footer {
     align-content: center;
     justify-content: space-evenly;
     padding: 5rem 120px 0 120px;
+	margin-top: 100px;
 }
 
 .faq-container-info {
@@ -1737,7 +1923,7 @@ footer {
 
 /* INICIO NOSOTROS-DESKTOP */
 .nosotros-container {
-	margin-top: 60px;
+	margin-top: 100px;
 }
 
 .nosotros-title {
@@ -1754,7 +1940,7 @@ footer {
 	margin-top: 50px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
@@ -1787,7 +1973,6 @@ footer {
 	font-size: 14px;
 	margin: 2em;
 }
-
 /* FIN NOSOTROS-DESKTOP */
 
 /* INICIO ASOC.-DESKTOP */
@@ -1840,7 +2025,6 @@ footer {
 
 
 /* INICIO CONOCENOS-DESKTOP */
-
 .conocenos-title {
 	width: 50vw;
 	text-align: left;
@@ -1855,6 +2039,7 @@ footer {
 	display: flex;
     justify-content: flex-start;
     flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 .doctores-info {
@@ -1897,6 +2082,7 @@ footer {
 	.donation-content {
 		display: flex;
 		flex-direction: row;
+		margin-top: 100px;
 	}
 
 	.donation-img {
@@ -1994,7 +2180,6 @@ footer {
 		width: 5%;
 		height: 5%;
 	}
-
 	/* FIN CONTACTO-DESKTOP */
 
 	/* INICIO CONTACTO-DESKTOP */
@@ -2007,5 +2192,179 @@ footer {
     gap: 0;
 }
 	/* FIN CONTACTO-DESKTOP */
+
+	/* SECCIÓN LA SANGRE */
+
+/* HEADER BLOOD TYPES */
+
+.bloodtypes-container {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--turquoise-01);
+	height: 105vh;
+	margin-top: 80px;
+}
+
+.bloodtypes-content {
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	justify-content: left;
+}
+
+.bloodtypes-video-mobile {
+	display: none;
+}
+
+.bloodtypes-video-desktop {
+	display: flex;
+	width: 50%;
+}
+
+.bloodtypes-info {
+	display: flex;
+	flex-direction: column;
+	color: var(--grey-light);
+	text-align: left;
+	margin: 1em 3em 1em 2em;
+	align-items: left;
+	justify-content: left;
+	max-width: 70%;
+	max-height: 60%;
+}
+
+.bloodtypes-title-desktop {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+	width: 100%;
+	color: #FFFF;
+	margin: 1em 0 1em 0;
+}
+
+.bloodtypes-title-mobile {
+	display: none;
+}
+
+.bloodtypes-subtitle,
+.bloodtypes-text {
+	margin-top: 0px;
+	align-items: left;
+	text-align: left;
+	justify-content: left;
+}
+
+.bloodtypes-subtitle {
+	text-align: left;
+}	
+
+.bloodtypes-text {
+	margin-top: 30px;
+	align-items: left;
+	text-align: left;
+	justify-content: left;
+	max-width: 90%;
+}
+
+/* FINHEADER BLOOD TYPES */
+
+/* QUESTIONS */
+
+.questions-desktop-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.question1-container,
+.question2-container {
+	margin: 0 1em 0 0;
+}
+
+.question1-title,
+.question2-title {
+	color: var(--turquoise-01);
+	font-size: 25px;
+	margin: 10px 0 10px 0;
+	text-align: left;
+}
+
+.question1-text,
+.question2-text {
+	margin: 1em 0 1em 0;
+	text-align: left;
+	max-width: 85%;
+}
+
+.bloodcells-img-desktop {
+	margin: 1em 0 1em 0;
+	display: block;
+}
+
+.bloodcells-img-mobile {
+	display: none;
+}
+
+/* FIN QUESTIONS */
+
+/* COMPATIBILITY */
+
+.compatibility-container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding-top: 0;
+	text-align: center;
+}
+
+.compatibility-title {
+	color: var(--turquoise-01);
+	text-align: left;
+}
+
+
+/* FIN COMPATIBILITY */
+
+/* INICIO AWARENESS */
+
+.awareness-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	height: 50em;
+	background-color: var(--turquoise-dark);
+}
+
+.awareness-title {
+	margin: 1em 0 1em 0;
+	text-align: left;
+	color: #FFFF;
+}
+
+.awareness-p-desktop {
+	display: flex;
+	flex-direction: row;
+}
+
+.awareness-text2 {
+	margin: 0 0 0 1.5em;
+}
+
+.babyhand-img-mobile {
+	display: none;
+}
+
+.babyhand-img-desktop {
+	display: block;
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+	margin-bottom: 1em 0 1em 0;
+}
+
+/* FIN AWARENESS */
+
+	/* FIN SECCIÓN LA SANGRE */
+
 
 }
