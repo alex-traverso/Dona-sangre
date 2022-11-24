@@ -12,8 +12,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <meta
+      name="description"
+      content="Dona sangre para salvar vidas. Es un proceso rápido seguro e indoloro. Ingresá para ver donde y como podes donar."
+    />
+    <script
+      src="https://kit.fontawesome.com/05175f9f05.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e4e36c659e.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Título único en cada pagina HTML -->
-    <title>Dona sangre</title>
+    <meta
+      name="description"
+      content="Doná sangre para salvar vidas. Es un proceso rápido, seguro e indoloro. Muchas personas agredecerán tu colaboración."
+    />
+    <title>Home - Donando Sangre</title>
   </head>
 
   <body>
@@ -23,7 +39,7 @@
         <img
           class="logo"
           src="images/logo-donar-sangre.png"
-          alt="Dona sangre"
+          alt="logo - Dona Sangre"
         />
       </a>
       <div class="toggler">
@@ -41,7 +57,7 @@
         <ul>
           <li><a href="/donar-sangre.html">Donar</a></li>
           <li><a href="/testimonios.html">Testimonios</a></li>
-          <li><a href="/lasangre.html">La sangre</a></li>
+          <li><a href="/la-sangre.html">La sangre</a></li>
           <li><a href="/nosotros.html">Nosotros</a></li>
           <li><a href="/ayudanos.html">Ayudanos</a></li>
           <li><a href="/contacto.html">Contacto</a></li>
@@ -51,24 +67,32 @@
     </div>
 
     <!-- INICIO BANNER -->
-    <div class="banner"></div>
-    <div class="banner-info container">
-      <h1 class="banner-title text-red text-center">
-        Doná sangre para salvar vidas Hola
-      </h1>
-      <p class="banner-caption text-black text-center">
-        Es un proceso rápido, seguro e indoloro. Muchas personas agredecerán tu
-        colaboración.
-      </p>
-      <button class="btn primary-btn banner-btn">Quiero donar</button>
-      <a class="btn-know-us" href="#">Conocenos</a>
-    </div>
+    <header class="banner">
+      <div class="banner-info container">
+        <h1 class="banner-title text-red text-center">
+          Doná sangre para salvar vidas
+        </h1>
+        <p class="banner-caption text-black text-center">
+          Es un proceso rápido, seguro e indoloro. Muchas personas agredecerán
+          tu colaboración.
+        </p>
+        <button class="btn primary-btn banner-btn">Quiero donar</button>
+        <a class="btn-know-us" href="#">Conocenos</a>
+      </div>
+    </header>
     <!-- FIN BANNER -->
 
     <!-- INICIO WHY -->
     <section class="why-container container">
       <h2 class="why-title-mobile text-center">¿Por qué donar?</h2>
-      <img class="why-img" src="images/donar-video.png" alt="¿Por qué donar?" />
+      <iframe
+        class="why-video"
+        src="https://www.youtube.com/embed/2JUptdfrOGk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
       <div class="why-info">
         <h2 class="why-title-desktop text-center">¿Por qué donar?</h2>
         <p class="why-text">
@@ -97,7 +121,7 @@
           <img
             class="req-img"
             src="images/edad-16-65.png"
-            alt="Tener entre 16 y 65 años"
+            alt="req edad - Dona Sangre"
           />
           <p class="req-caption">Tener entre 16 y 65 años</p>
         </div>
@@ -105,7 +129,7 @@
           <img
             class="req-img"
             src="images/50kg.png"
-            alt="Pesar más de 50 kilos"
+            alt="req peso - Dona Sangre"
           />
           <p class="req-caption">Pesar más de 50 kilos</p>
         </div>
@@ -113,7 +137,7 @@
           <img
             class="req-img"
             src="images/2-meses.png"
-            alt="2 meses desde la última donación de sangre"
+            alt="req tiempo desde ultima donacion - Dona Sangre"
           />
           <p class="req-caption">2 meses desde la última donación de sangre</p>
         </div>
@@ -121,7 +145,7 @@
           <img
             class="req-img"
             src="images/dormir.png"
-            alt="Dormir más de 6 horas"
+            alt="req sueño - Dona Sangre"
           />
           <p class="req-caption">Dormir más de 6 horas</p>
         </div>
@@ -129,7 +153,7 @@
           <img
             class="req-img"
             src="images/desayunar-almorzar.png"
-            alt="Desayunar y/o almorzar"
+            alt="req desayunar/almorzar - Dona Sangre"
           />
           <p class="req-caption">Desayunar y/o almorzar</p>
         </div>
@@ -137,7 +161,7 @@
           <img
             class="req-img"
             src="images/salud.png"
-            alt="Tener buen estado de salud"
+            alt="req estado salud - Dona Sangre"
           />
           <p class="req-caption">Tener buen estado de salud</p>
         </div>
@@ -204,11 +228,11 @@
     <section class="news-container container">
       <h2 class="news-title">Noticias</h2>
       <div class="news-card-container">
-        <div class="new-info">
+        <article class="new-info">
           <img
             class="new-img"
             src="images/nov-covid-19.png"
-            alt="Novedades Covid-19"
+            alt="Novedades Covid-19 - Dona Sangre"
           />
           <h3 class="new-card-title">Novedades Covid-19</h3>
           <p class="new-card-caption">
@@ -216,12 +240,12 @@
             siendo importante para salvar miles de vidas. Cómo y dónde donar.
           </p>
           <button class="btn primary-btn">Ver más</button>
-        </div>
-        <div class="new-info">
+        </article>
+        <article class="new-info">
           <img
             class="new-img"
             src="images/donar-plasma.png"
-            alt="Novedades Covid-19"
+            alt="Novedades Covid-19 - Dona Sangre"
           />
           <h3 class="new-card-title">Donar Plasma</h3>
           <p class="new-card-caption">
@@ -229,12 +253,12 @@
             siendo importante para salvar miles de vidas. Cómo y dónde donar.
           </p>
           <button class="btn primary-btn">Ver más</button>
-        </div>
-        <div class="new-info">
+        </article>
+        <article class="new-info">
           <img
             class="new-img"
             src="images/mas-gente-donar.png"
-            alt="Novedades Covid-19"
+            alt="Novedades Covid-19 - Dona Sangre"
           />
           <h3 class="new-card-title">Más gente puede donar</h3>
           <p class="new-card-caption">
@@ -242,7 +266,7 @@
             siendo importante para salvar miles de vidas. Cómo y dónde donar.
           </p>
           <button class="btn primary-btn">Ver más</button>
-        </div>
+        </article>
       </div>
     </section>
     <!-- FIN NEWS -->

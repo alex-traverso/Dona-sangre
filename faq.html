@@ -1,260 +1,578 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-	<!-- encoding de caracteres -->
-	<meta charset="UTF-8">
-	<!-- Meta para responsive design -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="styles/styles.css">
-	<!-- Título único en cada pagina HTML -->
-	<title>Donar sangre</title>
-</head>
-<body>
+  <head>
+    <!-- encoding de caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Meta para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/05175f9f05.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Título único en cada pagina HTML -->
+    <meta
+      name="description"
+      content="A continuación encontrarás una lista de preguntas frecuentes, 
+para que puedas resolver todas tus dudas."
+    />
+    <title>FAQ - Donando Sangre</title>
+  </head>
+  <body>
     <!-- INICIO NAVBAR -->
-	<div class="navbar">
-		<a href="/index.html">
-			<img class="logo" src="images/logo-donar-sangre.png" alt="Dona sangre">
-		</a>
-		<div class="toggler">
-			<svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="/donar-sangre.html">Donar</a></li>
-				<li><a href="/testimonios.html">Testimonios</a></li>
-				<li><a href="/lasangre.html">La sangre</a></li>
-				<li><a href="/nosotros.html">Nosotros</a></li>
-				<li><a href="/ayudanos.html">Ayudanos</a></li>
-				<li><a href="/contacto.html">Contacto</a></li>
-				<li><a href="/faq.html">FAQ</a></li>
-			</ul>
-		</nav>
-	</div>
-	<!-- FIN NAVBAR -->
+    <div class="navbar">
+      <a href="/index.html">
+        <img
+          class="logo"
+          src="images/logo-donar-sangre.png"
+          alt="Dona sangre"
+        />
+      </a>
+      <div class="toggler">
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/donar-sangre.html">Donar</a></li>
+          <li><a href="/testimonios.html">Testimonios</a></li>
+          <li><a href="/la-sangre.html">La sangre</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/ayudanos.html">Ayudanos</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- FIN NAVBAR -->
 
-	<!-- INICIO BANNER -->
-	<div class="faq-banner-container">
-		<div class="faq-img-container">
-			<img class="faq-img" src="images/banner-faq.png" alt="">
-		</div>
-        <div class="faq-container-info container">
-            <div class="faq-text-container">
-				<h1 class="faq-title text-red text-center">FAQ</h1>
-            <p class="faq-caption">DLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-            <h3 class="faq-search-title text-red text-center">¡Encontrá tu duda en el buscador!</h3>
-			</div>
+    <!-- INICIO BANNER -->
+    <div class="faq-banner-container">
+      <div class="faq-img-container">
+        <img class="faq-img" src="images/banner-faq.png" alt="" />
+      </div>
+      <div class="faq-container-info container">
+        <div class="faq-text-container">
+          <h1 class="faq-title text-red text-center">FAQ</h1>
+          <p class="faq-caption">
+            A continuación encontrarás una lista de preguntas frecuentes, para
+            que puedas resolver todas tus dudas.
+          </p>
+          <h3 class="faq-search-title text-red text-center">
+            ¡Encontrá tu duda en el buscador!
+          </h3>
         </div>
+      </div>
     </div>
 
     <!-- INICIO FAQ -->
     <div class="faq-container container">
-        <div class="search-faq">
-            <input class="faq-input" type="text" placeholder="¿Qué lugar estás buscando?">
+      <div class="search-faq">
+        <input
+          class="faq-input"
+          type="text"
+          placeholder="¿Qué lugar estás buscando?"
+        />
+      </div>
+      <div class="faq-items-container">
+        <div class="faq-item">
+          <p class="faq-item-title">¿Con qué frecuencia puedo donar?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Se puede donar sangre con un intervalo mínimo de 2 meses. Los
+              hombres pueden donar hasta 4 veces en un año y las mujeres, 3.
+            </p>
+          </div>
         </div>
-        <div class="faq-items-container">
-            <div class="faq-item">
-                <p class="faq-item-title">¿Con qué frecuencia puedo donar?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Se puede donar sangre con un intervalo mínimo de 2 meses. Los hombres pueden donar hasta 4 veces en un año y las mujeres, 3.</p>
-                </div>
-            </div>
 
-            <div class="faq-item">
-                <p class="faq-item-title">¿Cuánto tiempo lleva la donación?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Para una donación de sangre completa se tarda unos 8 o 10 minutos. Si donas plaquetas, glóbulos rojos o plasma por aféresis, el proceso puede tardar 2 horas). Cuando se haya recogido una pinta de sangre, la donación estará completa y nuestro personal te pondrá un vendaje en el brazo.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Duele donar sangre?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Es una molestia mínima, similar a la de un análisis de sangre. El material que se usa en la extracción y el personal sanitario están especialmente preparados para que el proceso de la donación se realice de forma correcta.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Qué se recomienda para el día de donación?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Estar descansado. Concurrir con ropa cómoda. Presentarse con D.N.I. Generalmente luego de realizar la donación se puede continuar con las actividades habituales.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Puedo donar si en los últimos 12 meses me hice un piercing o tatuaje?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Desde el momento de la realización de tatuajes y piercing tenés que esperar 12 meses y, luego, podés donar sin problemas. Se recomienda esperar ese tiempo porque existen infecciones que no se detectan por ese periodo en análisis de sangre. Por lo tanto, para evitar transmitir alguna infección al receptor de la sangre, se recomienda no donar durante un año.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Puedo donar si tuve hepatitis?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>El virus de la Hepatitis A no se transmite por sangre, pero esto será evaluado en la entrevista pre-donación. Será el profesional responsable quien definirá si puede donar o no.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Puedo donar si padezco diabetes?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>Si, las personas con diabetes medicada con pastillas pueden donar. En cambio, si realizan tratamiento con inyecciones de insulina no podrán donar sangre.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Puedo donar estando embarazada?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>No, durante el embarazo no se puede donar y tampoco durante los seis meses posteriores al parto o a la finalización de la lactancia.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-item-title">¿Hay riesgos de infección o de contaminación cuando se dona sangre?</p>
-                <div class="faq-arrows">
-                    <svg class="faq-arrow faq-arrow-down" width="39" height="22" viewBox="0 0 39 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="faq-arrow faq-arrow-up" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895" stroke="#EB1D36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="faq-item-info">
-                    <p>No, el material que se usa para la extracción es estéril, descartable y de uso único. No se puede contraer ninguna enfermedad por donar sangre. Además la donación se realiza bajo la supervisión médica y los procedimientos implementados buscan resguardar la seguridad tanto del donante como del receptor.</p>
-                </div>
-            </div>
-            
+        <div class="faq-item">
+          <p class="faq-item-title">¿Cuánto tiempo lleva la donación?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Para una donación de sangre completa se tarda unos 8 o 10 minutos.
+              Si donas plaquetas, glóbulos rojos o plasma por aféresis, el
+              proceso puede tardar 2 horas). Cuando se haya recogido una pinta
+              de sangre, la donación estará completa y nuestro personal te
+              pondrá un vendaje en el brazo.
+            </p>
+          </div>
         </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">¿Duele donar sangre?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Es una molestia mínima, similar a la de un análisis de sangre. El
+              material que se usa en la extracción y el personal sanitario están
+              especialmente preparados para que el proceso de la donación se
+              realice de forma correcta.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">
+            ¿Qué se recomienda para el día de donación?
+          </p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Estar descansado. Concurrir con ropa cómoda. Presentarse con
+              D.N.I. Generalmente luego de realizar la donación se puede
+              continuar con las actividades habituales.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">
+            ¿Puedo donar si en los últimos 12 meses me hice un piercing o
+            tatuaje?
+          </p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Desde el momento de la realización de tatuajes y piercing tenés
+              que esperar 12 meses y, luego, podés donar sin problemas. Se
+              recomienda esperar ese tiempo porque existen infecciones que no se
+              detectan por ese periodo en análisis de sangre. Por lo tanto, para
+              evitar transmitir alguna infección al receptor de la sangre, se
+              recomienda no donar durante un año.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">¿Puedo donar si tuve hepatitis?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              El virus de la Hepatitis A no se transmite por sangre, pero esto
+              será evaluado en la entrevista pre-donación. Será el profesional
+              responsable quien definirá si puede donar o no.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">¿Puedo donar si padezco diabetes?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              Si, las personas con diabetes medicada con pastillas pueden donar.
+              En cambio, si realizan tratamiento con inyecciones de insulina no
+              podrán donar sangre.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">¿Puedo donar estando embarazada?</p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              No, durante el embarazo no se puede donar y tampoco durante los
+              seis meses posteriores al parto o a la finalización de la
+              lactancia.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-item-title">
+            ¿Hay riesgos de infección o de contaminación cuando se dona sangre?
+          </p>
+          <div class="faq-arrows">
+            <svg
+              class="faq-arrow faq-arrow-down"
+              width="39"
+              height="22"
+              viewBox="0 0 39 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.98366 2.28657L19.951 20.305L37.0531 1.46289"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="faq-arrow faq-arrow-up"
+              width="38"
+              height="20"
+              viewBox="0 0 38 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.9769 18.1349L20.0235 1.80134L1.91504 17.1895"
+                stroke="#EB1D36"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq-item-info">
+            <p>
+              No, el material que se usa para la extracción es estéril,
+              descartable y de uso único. No se puede contraer ninguna
+              enfermedad por donar sangre. Además la donación se realiza bajo la
+              supervisión médica y los procedimientos implementados buscan
+              resguardar la seguridad tanto del donante como del receptor.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- FIN FAQ -->
 
+    <!-- INICIO FOOTER -->
+    <footer class="container">
+      <div class="footer-logo-container">
+        <img class="footer-logo" src="images/logo-footer.png" alt="Logo" />
+      </div>
 
-	<!-- INICIO FOOTER -->
-	<footer class="container">
-		<div class="footer-logo-container">
-			<img class="footer-logo" src="images/logo-footer.png" alt="Logo">
-		</div>
+      <div class="footer-items-container">
+        <div class="footer-donate">
+          <a href="#" class="text-bold">Donar</a>
+          <a href="#">Requisitos</a>
+          <a href="#">Turnos</a>
+          <a href="#">Dónde donar</a>
+        </div>
+        <div class="footer-testimonials">
+          <a href="#" class="text-bold">Testimonios</a>
+          <a href="#">Testimonios</a>
+        </div>
+        <div class="footer-blood">
+          <a href="#" class="text-bold">La sangre</a>
+          <a href="#">¿Qué es la sangre?</a>
+          <a href="#">Grupos sanguíneos</a>
+        </div>
+        <div class="footer-us">
+          <a href="#" class="text-bold">Nosostros</a>
+          <a href="#">A.A.H.I.T.C</a>
+          <a href="#">Campañas</a>
+        </div>
+        <div class="footer-faq">
+          <a href="#" class="text-bold">FAQ</a>
+          <a href="#">Dudas y mitos</a>
+        </div>
+        <div class="footer-contact">
+          <a href="#" class="text-bold">Contacto</a>
+        </div>
+      </div>
 
-		<div class="footer-items-container">
-			<div class="footer-donate">
-				<a href="#" class="text-bold">Donar</a>
-				<a href="#">Requisitos</a>
-				<a href="#">Turnos</a>
-				<a href="#">Dónde donar</a>
-			</div>
-			<div class="footer-testimonials">
-				<a href="#" class="text-bold">Testimonios</a>
-				<a href="#">Testimonios</a>
-			</div>
-			<div class="footer-blood">
-				<a href="#" class="text-bold">La sangre</a>
-				<a href="#">¿Qué es la sangre?</a>
-				<a href="#">Grupos sanguíneos</a>
-			</div>
-			<div class="footer-us">
-				<a href="#" class="text-bold">Nosostros</a>
-				<a href="#">A.A.H.I.T.C</a>
-				<a href="#">Campañas</a>
-			</div>
-			<div class="footer-faq">
-				<a href="#" class="text-bold">FAQ</a>
-				<a href="#">Dudas y mitos</a>
-			</div>
-			<div class="footer-contact">
-				<a href="#" class="text-bold">Contacto</a>
-			</div>
-		</div>
+      <div class="social-media-legals-container">
+        <div class="qr-code-container">
+          <img class="qr-code" src="images/qr-code.png" alt="Donar Sangre" />
+        </div>
+        <div class="social-media">
+          <img src="images/instagram.png" alt="Instagram" />
+          <img src="images/twitter.png" alt="Twitter" />
+          <img src="images/youtube.png" alt="Youtube" />
+          <img src="images/facebook.png" alt="Facebook" />
+        </div>
+        <div class="legals-container">
+          <p class="legals text-white text-center">
+            2022 Todos los derechos reservados
+          </p>
+          <p class="legals text-white text-center">
+            Asociación Hemoterapia e Inmunohematología
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
 
-		<div class="social-media-legals-container">
-			<div class="qr-code-container">
-				<img class="qr-code" src="images/qr-code.png" alt="Donar Sangre">
-			</div>
-			<div class="social-media">
-				<img src="images/instagram.png" alt="Instagram">
-				<img src="images/twitter.png" alt="Twitter">
-				<img src="images/youtube.png" alt="Youtube">
-				<img src="images/facebook.png" alt="Facebook">
-			</div>
-			<div class="legals-container">
-				<p class="legals text-white text-center">2022 Todos los derechos reservados</p>
-				<p class="legals text-white text-center">Asociación Hemoterapia e Inmunohematología</p>
-			</div>
-		</div>
-	</footer>
-	<!-- FIN FOOTER -->
-
-
-	<script src="https://code.jquery.com/jquery-3.6.1.js"
-		integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-	<script src="index.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
