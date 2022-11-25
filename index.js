@@ -1,5 +1,10 @@
-/* CARROUSELL */
+/* FUNCION TOGGLE NAVBAR */
+$( '.toggler' ).on( 'click', function () {
+	$( 'nav' ).toggle( 400 );
+} );
 
+
+/* CARROUSELL */
 const swiper = new Swiper('.swiper', {
   // Optional parameters
 	direction: 'horizontal',
@@ -16,14 +21,6 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-
-
-
-
-/* FUNCION TOGGLE NAVBAR */
-$( '.toggler' ).on( 'click', function () {
-	$( 'nav' ).toggle( 400 );
-} );
 
 /* FUNCION TOGGLE FAQ */
 $( ".faq-item" ).on( "click", function () {

@@ -32,12 +32,7 @@ body {
   font-size: 1.25rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
@@ -105,7 +100,6 @@ footer {
 }
 
 /* Reglas globales de clase / componentes */
-
 .btn {
   border-radius: 10px;
   font-weight: bold;
@@ -204,11 +198,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #5fc0dc;
+  color: var(--red-primary);
 }
 
 .active {
-  color: #5fc0dc;
+  color:  var(--red-primary);
 }
 /* FIN NAVBAR */
 
@@ -229,6 +223,10 @@ nav ul li a:hover {
 .swiper-button-next, .swiper-button-prev {
   color: var(--red-primary);
   display: none;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
 }
 
 .banner-info {
