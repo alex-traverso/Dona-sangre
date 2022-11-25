@@ -678,8 +678,16 @@ textarea {
   height: 100%;
 }
 
+.faq-arrows {
+  animation-name: spin;
+  animation-duration: 1s;
+}
+
 .faq-arrow {
   width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
 }
 
 .faq-input {
@@ -715,13 +723,9 @@ textarea {
   display: none;
 }
 
-.faq-arrow {
-  height: 30px;
-  margin-left: 20px;
-}
-
-.faq-arrow-up {
-  display: none;
+.rotate-arrow {
+  transition: .5s;
+  transform: rotate(180deg);
 }
 /* FIN FAQ */
 
@@ -1091,7 +1095,7 @@ textarea {
 
 .chart-text {
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 200;
   margin: 1em 0 1em 0;
   text-align: left;
   align-content: left;
@@ -1925,10 +1929,6 @@ textarea {
   .faq-arrow {
     height: 30px;
     margin-left: 20px;
-  }
-
-  .faq-arrow-up {
-    display: none;
   }
   /* FIN FAQ-DESKTOP */
 
