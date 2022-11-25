@@ -221,6 +221,16 @@ nav ul li a:hover {
   margin-top: 80px;
 }
 
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: var(--red-primary);
+  display: none;
+}
+
 .banner-info {
   display: flex;
   flex-direction: column;
@@ -626,6 +636,12 @@ textarea {
   border-radius: 10px;
   padding: 1.5rem;
   background-color: var(--turquoise-03);
+}
+
+.testimonial-cards {
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
 }
 
 .testimonial-name,
@@ -1304,6 +1320,19 @@ textarea {
     background-position: center;
   }
 
+.swiper {
+    width: 60%;
+    height: 300px;
+}
+
+.swiper-slide {
+  padding: 0 4rem;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  display: block;
+}
+
   .banner-info {
     position: absolute;
     top: 45vh;
@@ -1731,24 +1760,24 @@ textarea {
     margin-top: 25px;
   }
 
-  .testimonial-card-body {
-    width: 50%;
-    height: auto;
-    text-align: left;
-  }
-
   .testimonial-card-container {
     display: flex;
     gap: 13px;
     text-align: center;
   }
 
-  .testimonial-card-body {
-    width: 50%;
-    height: auto;
-    text-align: left;
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  .testimonial-card-body {
+    width: 80%;
+    height: 250px;
+    padding: 2rem;
+    text-align: left;
+}
   /* FIN TESTIMONIOS-DESKTOP */
 
   /* INICIO DONAR SANGRE DB-DESKTOP*/
