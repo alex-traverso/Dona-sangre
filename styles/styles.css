@@ -217,7 +217,7 @@ nav ul li a:hover {
 
 .swiper {
   width: 100%;
-  height: 300px;
+  height: 360px;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -628,11 +628,13 @@ textarea {
 
 .testimonial-card-container {
   margin: 50px 0;
+  height: 380px;
 }
 
 .testimonial-card-body {
   border-radius: 10px;
   padding: 1.5rem;
+  height: 330px;
   background-color: var(--turquoise-03);
 }
 
@@ -745,18 +747,18 @@ textarea {
 
 /*INICIO NOSOTROS */
 
-.nosotros-title {
-  margin: 1em 0 1em 0;
+.about-us-title {
+  margin: 3em 0 1em 0;
 }
 
-.valores-container {
+.values-container {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.valores-info {
+.values-info {
   width: 300px;
   margin-bottom: 30px;
   display: flex;
@@ -769,13 +771,13 @@ textarea {
   box-shadow: 0px 5px 27px 0px rgba(0, 0, 0, 0.3);
 }
 
-.valores-img {
+.values-img {
   max-height: 100px;
   max-width: 120px;
   margin: 20px 0 20px 0;
 }
 
-.valores-caption {
+.values-caption {
   font-size: 14px;
   margin: 1em;
 }
@@ -829,22 +831,22 @@ textarea {
 
 /*INICIO NOSOTROS */
 
-.conocenos-title {
+.know-title {
   margin: 1em 0 1em 0;
 }
 
-.conocenos-caption {
+.know-caption {
   text-align: left;
 }
 
-.doctores-container {
+.doctors-container {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.doctores-info {
+.doctors-info {
   width: 300px;
   margin-bottom: 30px;
   display: flex;
@@ -854,15 +856,16 @@ textarea {
   text-align: center;
 }
 
-.doctores-img {
+.doctors-img {
   height: 200px;
 }
 
-.doctores-titulo {
+.doctors-title {
+  color: var(--red-primary);
   margin: 10px 0 10px 0;
 }
 
-.doctores-caption {
+.doctors-caption {
   font-size: 14px;
 }
 
@@ -1325,6 +1328,11 @@ textarea {
 
 .swiper-slide {
   padding: 0 4rem;
+  height: 300px;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -1960,21 +1968,22 @@ textarea {
   /* FIN FAQ-DESKTOP */
 
   /* INICIO NOSOTROS-DESKTOP */
-  .nosotros-container {
+  .about-us-container {
     margin-top: 100px;
   }
 
-  .nosotros-title {
+  .about-us-title {
+    margin-top: 1em;
     width: 50vw;
     text-align: left;
   }
 
-  .nosotros-caption {
+  .about-us-caption {
     width: 50vw;
     text-align: left;
   }
 
-  .valores-container {
+  .values-container {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -1982,7 +1991,7 @@ textarea {
     justify-content: space-between;
   }
 
-  .valores-imgs-container {
+  .values-imgs-container {
     width: 100%;
     margin: auto;
     display: flex;
@@ -1990,7 +1999,7 @@ textarea {
     justify-content: space-between;
   }
 
-  .valores-info {
+  .values-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2000,14 +2009,14 @@ textarea {
     width: 500px;
   }
 
-  .valores-img {
+  .values-img {
     max-height: 150px;
     max-width: 150px;
     width: auto;
     margin: 20px 0 20px 0;
   }
 
-  .valores-caption {
+  .values-caption {
     font-size: 14px;
     margin: 2em;
   }
@@ -2063,24 +2072,24 @@ textarea {
   /* FIN ASOC.-DESKTOP */
 
   /* INICIO CONOCENOS-DESKTOP */
-  .conocenos-title {
+  .know-title {
     width: 50vw;
     text-align: left;
   }
 
-  .conocenos-caption {
+  .know-caption {
     width: 50vw;
     text-align: left;
   }
 
-  .doctores-container {
+  .doctors-container {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
   }
 
-  .doctores-info {
+  .doctors-info {
     width: 500px;
     margin: 15px;
     display: flex;
@@ -2089,19 +2098,18 @@ textarea {
     align-items: flex-start;
   }
 
-  .doctores-img {
+  .doctors-img {
     width: 100%;
     height: auto;
   }
 
-  .doctores-titulo {
+  .doctors-title {
     display: flex;
-    color: var(--red-primary);
     margin-bottom: 10px;
     text-align: left;
   }
 
-  .doctores-caption {
+  .doctors-caption {
     font-size: 14px;
   }
 
@@ -2215,8 +2223,9 @@ textarea {
 
   .donations-icons {
     align-items: center;
-    width: 5%;
-    height: 5%;
+    width: 58px;
+    height: auto;
+    margin: 10px;
   }
   /* FIN CONTACTO-DESKTOP */
 
